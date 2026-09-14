@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "baseprotect",
+  "version": "${version}",
+  "name": "BaseProtect",
+  "description": "Protects a 4-corner base boundary and strikes unauthorized players with lightning.",
+  "authors": [
+    "Ground One SMP"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.groundone.baseprotect.BaseProtectMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
